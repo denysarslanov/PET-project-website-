@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <h1 class="logo">James Thompson <span class="adaptive">Legal Services</span></h1>
+            <ul class="links_list">
+                <li class="navbar__item"><a href="#introduction">Introduction</a></li>
+                <li class="navbar__item"><a href="#advantages">Advantages</a></li>
+                <li class="navbar__item"><a href="#contact">Contact</a></li>
+                <li id="hamburger-menu" class="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__content">
+            <h1 class="header__title">Lawyer for you</h1>
+            <p class="header__description"> I am James Thompson, a dedicated lawyer based in London, specializing in family law and personal injury cases. With a degree from the University of Oxford and four years of experience at a leading law firm, I am committed to providing expert
+                legal advice and personalized support..</p>
+            <button class="header__button"><a href="#consultation">Request consultation</a></button>
+        </div>
+    </header>
+    <div class="introduction" id="introduction">
+        <div class="introduction__content">
+            <h2 class="introduction__title ">Introduction</h2>
+            <p class="introduction__text">Welcome to <span class="marked">James Thompson Legal Services</span>, where your legal needs are our top priority. I am James Thompson, a passionate and dedicated legal professional based in London, specializing in family law and personal
+                injury cases. With a background rooted in academic excellence and professional rigor, my aim is to offer a client-centered approach to legal services, ensuring that each client receives the personalized attention and expert guidance they
+                deserve.
+            </p>
+        </div>
+        <div class="introduction__img">
+            <img src="././assets/law.jpg" alt="">
+        </div>
+    </div>
+    <div class="advantages block" id="advantages">
+        <h2 class="advantages__title block__title">Why choose me</h2>
+        <div class="advantages__content">
+            <ul class="advantages__list">
+                <li class="reason">
+                    <h3 class="reason__title">Expertise and Experience</h3>
+                    <p class="reason__text">With a degree in Law from the prestigious University of Oxford and four years of hands-on experience at a leading London law firm, I bring a wealth of knowledge and a proven track record in handling complex legal issues. My focus areas
+                        include family law—such as divorce, child custody, and prenuptial agreements—and personal injury cases, including car accidents, workplace injuries, and medical malpractice.</p>
+                </li>
+                <li class="reason">
+                    <h3 class="reason__title">Client-Centered Approach</h3>
+                    <p class="reason__text">I understand that dealing with legal issues can be stressful and overwhelming. That’s why I am committed to providing compassionate, clear, and effective legal advice tailored to your unique situation. From our first consultation to
+                        the resolution of your case, I will be with you every step of the way, offering support, guidance, and a listening ear.</p>
+                </li>
+                <li class="reason">
+                    <h3 class="reason__title">Transparent and Honest Communication</h3>
+                    <p class="reason__text">Transparency and honesty are the cornerstones of my practice. I ensure that my clients are well-informed about their case status and all available options. I believe in setting realistic expectations and working diligently to achieve
+                        the best possible outcomes.</p>
+                </li>
+                <li class="reason">
+                    <h3 class="reason__title">Tailored Legal Solutions</h3>
+                    <p class="reason__text">Every case is different, and a one-size-fits-all approach doesn’t work in law. I take the time to understand your specific needs and circumstances, crafting bespoke legal strategies designed to address your individual challenges and
+                        goals.
+                    </p>
+                </li>
+                <li class="reason">
+                    <h3 class="reason__title">Proven Success and Client Satisfaction</h3>
+                    <p class="reason__text">If you’re looking for dedicated legal support that puts your needs first, look no further. Schedule a consultation today and take the first step towards resolving your legal issues with confidence and peace of mind.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact block" id="contact">
+        <h2 class="contatct__title block__title">Contact information</h2>
+        <div class="contact__content">
+            <ul>
+                <li class="contact__listItem">Phone: <span class="marked underlined">+447148991903</span></li>
+                <li class="contact__listItem">Email: <span class="marked underlined">james@thompsonlegal.co.uk</span></li>
+            </ul>
+        </div>
+    </div>
+    <form action="" method="post" id="consultation">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Your question:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Send</button>
+        </div>
+    </form>
+    <footer>
+        <div class="footer__content">
+            <h4>All rights reserved</h4>
+            <h4>James Thompson Legal Services</h4>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
